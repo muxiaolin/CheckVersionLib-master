@@ -1,5 +1,9 @@
 ## CheckVersionLib[![](https://jitpack.io/v/AlexLiuSheng/CheckVersionLib.svg)](https://jitpack.io/#AlexLiuSheng/CheckVersionLib)
 
+
+
+Fork to https://github.com/AlexLiuSheng/CheckVersionLib
+
 ## V2 Version has been born with shocking, strong functions,chain programing, easy to integrate,strong extension
 [中文文档](https://github.com/AlexLiuSheng/CheckVersionLib/blob/master/README_UN.MD)
 
