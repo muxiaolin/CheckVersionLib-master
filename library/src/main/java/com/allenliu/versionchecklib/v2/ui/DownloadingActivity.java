@@ -4,7 +4,7 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -69,7 +69,7 @@ public class DownloadingActivity extends AllenBaseActivity implements DialogInte
 
     @Override
     public void showDefaultDialog() {
-        View loadingView = LayoutInflater.from(this).inflate(R.layout.downloading_layout, null);
+        View loadingView = LayoutInflater.from(this).inflate(R.layout.versionchecklib_downloading_layout, null);
         downloadingDialog = new AlertDialog.Builder(this).setTitle("").setView(loadingView).create();
         if (getVersionBuilder().getForceUpdateListener() != null)
             downloadingDialog.setCancelable(false);

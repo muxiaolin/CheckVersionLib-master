@@ -126,7 +126,7 @@ public class VersionDialogActivity extends AllenBaseActivity implements Download
         ALog.e("show default downloading dialog");
         if (!isDestroy) {
             if (loadingDialog == null) {
-                loadingView = LayoutInflater.from(this).inflate(R.layout.downloading_layout, null);
+                loadingView = LayoutInflater.from(this).inflate(R.layout.versionchecklib_downloading_layout, null);
                 loadingDialog = new AlertDialog.Builder(this).setTitle("").setView(loadingView).create();
                 loadingDialog.setCancelable(true);
                 loadingDialog.setCanceledOnTouchOutside(false);

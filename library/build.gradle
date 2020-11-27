@@ -3,11 +3,10 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     resourcePrefix "versionchecklib"
+
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 1
-        versionName version
     }
     lintOptions {
         abortOnError false
@@ -25,14 +24,14 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.squareup.okhttp3:okhttp:4.3.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.2'
     implementation 'org.greenrobot:eventbus:3.1.1'
 
 }
 
 ext {
-    releaseArtifact = 'commonlib'
-    releaseVersion = '1.0.1'
+    releaseArtifact = 'CheckVersionLib'
+    releaseVersion = '2.4_androidx'
 }
 
 
