@@ -27,12 +27,12 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 //    compile 'com.android.support:appcompat-v7:25.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     testImplementation 'junit:junit:4.13.1'
     implementation project(':library')
 //    implementation 'com.github.AlexLiuSheng:CheckVersionLib:2.2.2'
 //    compile 'com.allenliu.versionchecklib:library:2.0.9'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
     //    compile 'com.allenliu.versionchecklib:library:1.7.6'
     //compile files('libs/library.jar')
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
 }
